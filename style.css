@@ -1,0 +1,23 @@
+@font-face {
+	font-family: 'Steve';
+	src: local('SteveHand'), url('fonts/SteveHand.woff');
+}
+
+html {
+	height: 100%;
+	background: #002b28;  /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(#002b28, #01796f);  /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#002b28, #01796f);  /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#002b28, #01796f);  /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#002b28, #01796f);
+}
+body {
+	color: white;
+	text-align: center;
+	margin: 75px;
+	font-family: Steve;
+	font-size: 500%;
+	-ms-transform: rotate(353deg);  /* IE 9 */
+	-webkit-transform: rotate(353deg);  /* Safari, Opera */
+	transform: rotate(353deg);
+}
